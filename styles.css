@@ -32,7 +32,7 @@ body {
 
 header {
   padding-top: 32px;
-  margin-bottom: 96px;
+  margin-bottom: 128px;
 }
 
 nav {
@@ -358,7 +358,7 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin-bottom: 48px;
+  margin-bottom: 32px;
 }
 
 .plan-details li {
@@ -371,6 +371,11 @@ nav {
   line-height: 30px;
   text-align: left;
   color: #4f5665;
+}
+
+.plan-details-mark {
+  width: 12px;
+  height: 12px;
 }
 
 .price-sec {
@@ -416,4 +421,50 @@ nav {
   color: #fff;
   background-color: #f53838;
   box-shadow: 0 15px 15px #f5383859;
+}
+
+.card-active {
+  border: 1px solid #f53838;
+}
+
+.plans {
+  margin-bottom: 128px;
+}
+
+.plans-description {
+  margin-bottom: 96px;
+}
+
+.network {
+  text-align: center;
+}
+
+.network-header {
+  width: 380px;
+  margin: 0 auto 36px auto;
+  font-family: Rubik;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 50px;
+  color: #0b132a;
+}
+
+.network-description {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #4f5665;
+  max-width: 550px;
+  color: #4f5665;
+  margin: 0 auto;
+}
+
+.network-description span {
+  font-weight: 500;
+  color: #4f5665;
+}
+
+.global {
+  width: 960px;
 }
