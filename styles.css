@@ -18,6 +18,7 @@
 
 body {
   font-family: Rubik;
+  height: 10000px;
 }
 
 .container {
@@ -25,8 +26,13 @@ body {
   margin: 0 auto;
 }
 
+.header-container {
+  width: 100%;
+}
+
 header {
   padding-top: 32px;
+  margin-bottom: 96px;
 }
 
 nav {
@@ -115,6 +121,7 @@ nav {
 
 .header-content {
   margin-top: 80px;
+  margin-bottom: 96px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   /* align-items: center; */
@@ -159,4 +166,128 @@ nav {
 .start-btn:link,
 .start-btn:visited {
   text-decoration: none;
+  display: inline-block;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  color: #ffffff;
+  background-color: #f53838;
+
+  padding: 12px 24px;
+  border-radius: 5px;
+}
+
+.start-btn:active,
+.start-btn:hover {
+  box-shadow: 0 15px 15px #f5383859;
+}
+
+.header-img {
+  width: 100%;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* gap: 48px; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  padding: 24px 0 24px 0;
+}
+
+.stats-group {
+  padding: 48px 84px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.stats-icon-container {
+  background-color: #ffecec;
+  padding: 12px;
+  border-radius: 100%;
+}
+
+.stats-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.stats-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.stats-nums {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 700;
+  /* line-height: 30px; */
+  text-align: left;
+  color: #0b132a;
+}
+
+.stats-property {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  /* line-height: 30px; */
+  text-align: left;
+  color: #4f5665;
+}
+
+.borders {
+  border-left: 2px solid #eeeff2;
+  border-right: 2px solid #eeeff2;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 24px;
+}
+
+.features-img {
+  width: 100%;
+}
+
+.features-header {
+  color: #0b132a;
+  font-family: Rubik;
+  font-size: 35px;
+  font-weight: 500;
+  /* line-height: 50px; */
+  text-align: left;
+
+  margin-bottom: 32px;
+}
+
+.features-description {
+  color: #4f5665;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.features-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.features-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
