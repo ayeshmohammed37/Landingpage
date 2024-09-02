@@ -8,8 +8,70 @@
 
 */
 
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: Rubik;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-img {
+  width: 36px;
+  height: 36px;
+}
+
+.logo-titile {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.7px;
+  text-align: left;
+  color: #0b132a;
+}
+
+.logo-titile span {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.7px;
+  text-align: left;
+}
+
+.header-menu {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+
+  color: #4f5665;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.96px;
+  text-align: left;
+}
+
+.btn {
+  text-decoration: none;
 }
