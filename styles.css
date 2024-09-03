@@ -584,6 +584,7 @@ nav {
 }
 
 .slide-btn {
+  cursor: pointer;
   border-radius: 100px;
   padding: 12px;
   background-color: #fff;
